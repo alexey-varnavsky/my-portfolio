@@ -12,12 +12,13 @@ $background-opacity: 0.9;
   @if $show-home-image {
     &#bg-img {
      background: $home-image; 
-     background-attachment: fixed, scroll;
+     background-attachment: fixed;
      background-size: cover;
 
      &:after {
        content: "";
        position: fixed;
+       overflow: hidden;
        top: 0;
        right: 0;
        right: 0;
