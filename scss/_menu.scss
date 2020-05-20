@@ -101,6 +101,8 @@
 
       @media (min-resolution: 192dpi) {
         background: url("../img/about-2x.jpg");
+        background-size: cover;
+        background-origin: border-box;
       }
     }
   }
