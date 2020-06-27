@@ -99,7 +99,7 @@
       border: solid 3px $secondary-color;
       z-index: 4;
 
-      @media (min-resolution: 192dpi) {
+      @media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
         background: url("../img/about-2x.jpg");
         background-size: cover;
         background-origin: border-box;
